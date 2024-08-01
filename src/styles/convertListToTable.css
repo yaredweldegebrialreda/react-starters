@@ -1,0 +1,28 @@
+table > tr {
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  width: 100%;
+}
+h,
+td {
+  padding: 16px;
+  border: 1px solid blue;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+}

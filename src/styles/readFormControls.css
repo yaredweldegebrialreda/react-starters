@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 200px;
+  margin-top: 2%;
+  /* flex-wrap: nowrap; */
+}
